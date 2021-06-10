@@ -1,0 +1,54 @@
+body{
+    background-color: grey;
+}
+.posicion{
+    background-color: transparent;
+    position: absolute;
+    height: 500px;
+    width: 840px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50px,-50%);
+    background: url("sombra.png");
+    padding-right:  10px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 10px;
+}
+.verde
+{
+    background-color: green;
+    height: 500px;
+    width: 280px;
+    position: absolute;
+    top:0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.blanco
+{
+     background-color: white;
+     height: 500px;
+     width: 300px;
+     background-size: 45px;
+     position: absolute;
+     top: 0;
+     left: 280px;
+}
+.blanco img 
+{
+   position: relative;
+   top: 8em;
+   left: 28px;
+}
+.rojo
+{
+    background-color:red;
+    height: 500px;
+    width: 280px;
+    position: absolute;
+    top: 0px;
+    left: 580px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}

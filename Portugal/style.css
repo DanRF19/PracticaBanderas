@@ -1,0 +1,48 @@
+body{
+    background-color: grey;
+}
+.posicion{
+    background-color: transparent;
+    position: absolute;
+    height: 500px;
+    width: 840px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50px,-50%);
+    background: url("sombra.png");
+    padding-right:  10px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 10px;
+}
+.verde
+{
+    background-color: green;
+    height: 500px;
+    width: 280px;
+    position: absolute;
+    top:0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.escudo img
+{
+   
+   position: relative;
+   top: 6em;
+   left: 85px;
+   z-index: 1;
+   
+}
+.rojo
+{
+    background-color:red;
+    height: 500px;
+    width: 580px;
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
